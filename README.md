@@ -238,13 +238,13 @@ nvidia-smi
 
 [cuda](https://developer.nvidia.cn/cuda-toolkit-archive)
 
-选择好了之后，执行红色箭头这一句，或者浏览器下载也行（不要执行后面的sh）
+选择好了之后，执行红色箭头这一句
 
 ![cuda](img/cuda.png)
 
 ```bash
-sudo chmod a+x cuda_11.7.1_515.65.01_linux.run
-sudo ./cuda_11.7.1_515.65.01_linux.run --no-opengl-lib
+sudo chmod a+x cuda_12.8.1_570.124.06_linux.run
+sudo sh cuda_12.8.1_570.124.06_linux.run
 ```
 
 中间把drive的勾去掉，其他默认
